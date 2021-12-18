@@ -1,0 +1,300 @@
+body{
+    background-color:rgb(201 135 213 / 42%);
+}
+.vl {
+    border-left: 5px solid black;
+    margin-left: 5px;
+    height: 182px;
+  }
+
+/* NAVIGATION BAR SECTION STARTS HERE */
+.navbar{
+    background-color: rgb(12 13 12 / 40%); 
+    border-radius: 8px;
+}
+.navbar ul{
+    list-style: none;
+    overflow: auto;
+}
+.navbar li{
+   float: left; 
+   margin: 8px 8px;
+}
+.navbar li a{
+    float: left;
+    padding: 8px;
+    text-decoration: none; 
+    color: white;   
+}
+.navbar li a:hover{
+    background-color: rgba(132, 133, 221, 0.4);; 
+    color: black; 
+}
+.navbar input{
+    float: right;
+    padding: 8px;
+    margin: 8px 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(12 13 12 / 40%);
+    width: 160px;
+    padding-left: 65px;
+}
+/* NAVIGATION BAR SECTION STARTS HERE */
+
+/* INTRO SECTION STARTS HERE */
+
+.image{
+    float: right;
+}
+.image img{
+    border-radius: 8px;
+}
+.intro{
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 500px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+  /* padding: 50px; */
+}
+.intro_text{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color:rgba(36, 39, 209, 0.4);
+    height:450px ;
+    width: 350px;
+    border-radius: 8px;
+}
+.intro_text h1{
+    font-family: 'Bakbak One', cursive;
+}
+.image1{
+    transform: rotate(270deg);
+}
+.btn{
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+.btn:hover{
+    background-color: blue;
+}
+
+/* INTRO SECTION ENDS HERE */
+
+/* ABOUT US SECTION ENDS HERE */
+
+.about_us{
+    margin-top: 10px;
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 650px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+}
+
+.about_us h1{
+    font-family: 'Bakbak One', cursive;
+    margin-left: 5px;
+}
+.image2{
+    border-radius: 8px;
+    height: 400px;
+    width: 1120px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.about_us h3{
+    margin-left: 5px;
+}
+.about_us p{
+    margin-left: 5px;
+}
+
+/* ABOUT SECTION ENDS HERE */
+
+/* SERVICES SECTION STARTS HERE */
+
+.services{
+    margin-top: 10px;
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 1260px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+  margin-left: 0px;
+}
+.services h1{
+    font-family: 'Bakbak One', cursive;
+    margin-left: 5px;
+}
+.services h3{
+    margin-left: 5px;
+}
+.services_img1{
+    border-radius: 8px;
+    height: 400px;
+    width: 1120px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.services p{
+    margin-left: 5px;
+}
+.subscriptions{
+    margin-left: 5px;
+}
+
+
+/* SERVICES SECTION ENDS HERE */
+
+/* CONTACT US SECTION STARTS HERE*/
+
+.contactus{
+    margin-top: 10px;
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 500px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+  margin-left: 0px;
+}
+.contactus h1{
+    margin-left: 5px;
+    font-family: 'Bakbak One', cursive;
+}
+.contactus_text{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color:rgba(36, 39, 209, 0.4);
+    height: 480px ;
+    width: 500px;
+    border-radius: 8px;
+}
+.contactus_input{
+    float: left;
+}
+.contactus_input input{
+    margin: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.contactus_input textarea{
+    margin: 5px;
+    border-radius: 8px;
+}
+.contactus_btn{
+    margin-top: 0px;
+    margin-left: 200px;
+    size: 100px;
+}
+.contactus_btn:hover{
+    background-color: blue;
+}
+.contactus_img{
+    float: right;
+    width: 580px;
+    height: 498.9px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+}
+
+/* CONTACT US SECTION ENDS HERE */
+
+/* <!-- FAQs SECTION STARTS HERE --> */
+
+.faq{
+    margin-top: 10px;
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 300px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+  margin-left: 0px;
+}
+.faq h1{
+    margin-left: 5px;
+}
+.faq_text{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color:rgba(36, 39, 209, 0.4);
+    height: 220px ;
+    width: 1120px;
+    border-radius: 8px;
+}
+.faq_text h3{
+    margin-left: 5px;
+}
+.faq_text p{
+    margin-left: 5px;
+}
+.faq_btn{
+    margin-top: 0px;
+    margin-left: 5px;
+    size: 100px;
+}
+.faq_btn:hover{
+    background-color: blue;
+}
+
+/* <!-- FAQs SECTION ENDS HERE --> */
+
+/* OUR TEAM SECTION STARTS HERE */
+
+.our_team{
+    margin-top: 10px;
+    float: none;
+    background-color: rgba(132, 133, 221, 0.4);
+  height: 330px;
+  border: 2px solid rgba(132, 133, 221, 0.4);
+  border-radius: 8px;
+  margin-left: 0px;
+}
+.ourteam_text{
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    background-color:rgba(36, 39, 209, 0.4);
+    height: 250px ;
+    width: 1120px;
+    border-radius: 8px;
+}
+.ourteam_text h3{
+    margin-left: 5px;
+}
+.our_team h1{
+    margin-left: 5px;
+}
+.our_team p{
+    margin-left: 5px;
+}
+
+/* OUR TEAM SECTION ENDS HERE */
+
+/* FOOTER SECTION STARTS HERE */
+
+.country{
+    float: right;
+    margin: 15px;
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+}
+
+/* FOOTER SECTION ENDS HERE */
+
+/* TEAM RAPSTER */
